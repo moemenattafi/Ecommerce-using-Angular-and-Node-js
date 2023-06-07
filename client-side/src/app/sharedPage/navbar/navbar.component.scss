@@ -1,0 +1,46 @@
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightElements{
+  display: flex;
+  column-gap: 4%;
+  float: right;
+}
+.router-link-active{
+  font-weight: bold;
+  color: aquamarine;
+}
+.rightElements{
+  justify-content: space-around 3%;
+  width: 20%;
+}
+.navbar-nav{
+
+  :hover{
+    color: aquamarine;
+  }
+
+}
+.icon1{
+
+  :hover{
+    color: aquamarine;
+  }
+}
+.icon2{
+  :hover{
+    color: aquamarine;
+  }
+  display:contents;
+}
+.account{
+  width: 60%;
+  :hover{
+    color: aquamarine;
+  }
+  display:contents;
+}
+

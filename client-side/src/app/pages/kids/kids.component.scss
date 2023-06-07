@@ -1,0 +1,62 @@
+.container{
+  padding-left: 5%;
+  width: 75%;
+  position: relative;
+  float: none;
+  display: inline-block;
+
+}
+.sideNavbar{
+  width: 20%;
+  float: left;
+  display: inline;
+}
+.manComponent{
+  margin-bottom: 10%;
+
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+
+}
+/* Remove extra left and right margins, due to padding in columns */
+.row{
+  width: 100%;
+  padding-top:2%;
+
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+.card{
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.nav-link{
+  :active{
+    color: aquamarine;
+  }
+}
+.ProductDescription{
+  position:absolute;
+
+
+}
+.card img{
+  width: 100%;
+  height: 280px;
+
+}
+.btn{
+  position: absolute;
+  bottom: 2%;
+}
